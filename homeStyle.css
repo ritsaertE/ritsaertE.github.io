@@ -1,0 +1,90 @@
+h1 {
+    color: black;
+    font-family:Verdana, sans-serif;
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: black;
+    font-family:Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+.menu{
+    text-align: center;
+    background-color: white;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+body{
+    background-image: url("Resources/menu.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    margin: 0px;
+}
+
+#right{
+    width: 33%;
+    
+}
+
+#center{
+    width: 33%;
+}
+
+#left{
+    width: 33%;
+}
+
+.title{
+    width: 100%;
+    background-color: white;
+    margin: 0px;
+}
+
+.topright{
+    float:right;
+    background-color: #475c5d;
+    padding: 10px;
+    margin-right: 10px;
+    font: bold 15px Arial;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.topright:hover{
+    background-color:#6b7973;
+}
+
+.menuItem{
+    background-color: #475c5d;
+    padding: 10px;
+    margin-right: 10px;
+    font: bold 15px Arial;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.menuItem:hover{
+    background-color:#6b7973;
+}
+
+.menucolumn {
+    border-right: black 4px;
+    border-width: 4px;
+}

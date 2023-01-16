@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="registerstyle.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Sell stuff online now!">
+        <meta name="keywords" content="E-commerce, Shop">
+        <meta name="author" content="Ritsaert Eberson, Thimo de Kloet">
+    </head>
+    <body>
+        <div class="left-side">
+            <div class="info">
+                <h1>Welcome to E-commerce!</h1>
+
+                <form action="" target="_self">
+                    <input type="text" id="username" name="username" class="login" 
+                    placeholder="username" required><br>
+                    <input type="password" id="password" name="password" class="login"
+                    placeholder="password" required><br>
+                    <input type="text" id="name" name="name" class="login"
+                    placeholder="name" required><br>
+                    <input type="email" id="email" name="email" class="login"
+                    placeholder="email" required><br>
+
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label><br>
+                    <br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birtday">
+                    <br>
+                    <input type="text" id="country" name="country" class="login"
+                    placeholder="Country of Residence" required><br>
+
+                    <input type="text" id="zipcode" name="zipcode" class="login"
+                    placeholder="Zipcode" required><br>
+
+                    <p>About:</p>
+                    <textarea name="about" rows="10" cols="30"></textarea>
+                    <br>
+
+                    <input type="submit" id="submit" name="submit" value="Sign Up">
+                </form>
+
+            </div>
+        </div>
+
+
+        <div class="right-side">
+            <button onclick="document.location='login.html'" target="_self">Already have an account?</button>
+        </div>
+
+
+    </body>
+
+
+
+
+
+</html>

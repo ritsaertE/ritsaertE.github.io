@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Items</title>
+        <link rel="stylesheet" href="searchstyle.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Sell stuff online now!">
+        <meta name="keywords" content="E-commerce, Shop">
+        <meta name="author" content="Ritsaert Eberson, Thimo de Kloet">
+    </head>
+    <body>
+        <div class="searchbar">
+            <form action="#">
+                <input type="text" placeholder="    Search Products..." name="search">
+            </form>
+        </div>
+
+        <div class="filter">
+            <button class="btn active" onclick="filterSelection('all')">Show all</button>
+            <div class="dropdown">
+                <button class="btn dropbtn">Price Range</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="filterSelection('0-100')">0-100</a>
+                    <a href="#" onclick="filterSelection('100-250')">100-250</a>
+                    <a href="#" onclick="filterSelection('250+')">250+</a> 
+                </div>
+            </div>
+            <button class="btn" onclick="filterSelection('Verified')">Verified</button>
+            <div class="dropdown">
+                <button class="btn dropbtn">Rating</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="filterSelection('3+')">3+</a>
+                    <a href="#" onclick="filterSelection('4+')">4+</a>
+                    <a href="#" onclick="filterSelection('5')">5</a> 
+                </div>
+            </div>
+            
+        </div>
+
+
+
+    </body>
+</html>

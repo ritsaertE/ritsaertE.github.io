@@ -1,0 +1,57 @@
+body {
+    background-image: url("Resources/background.jpg");
+    background-color: #cccccc;
+    background-size: contain;
+    margin: 0px;
+}
+
+h1 {
+    color: black;
+    font-family:Verdana, sans-serif;
+    padding-top: 15%;
+}
+
+form {
+    display: inline-block;
+    font-family:Verdana, sans-serif;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+div {
+    float: right;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.formText {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-width: 1px;
+}
+
+input[type="submit" i] {
+    color: white;
+    margin-top: 20px;
+    background-color: #475c5d;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 0px;
+}
+
+input[type="submit" i]:hover {
+    background-color: #6b7973;
+}

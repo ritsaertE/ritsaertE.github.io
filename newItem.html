@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Add a new item</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Sell stuff online now!">
+        <meta name="keywords" content="E-commerce, Shop">
+        <meta name="author" content="Ritsaert Eberson, Thimo de Kloet">
+    </head>
+
+    <body>
+        <div>
+            <h1>Add a new item</h1>
+            <form method="post">
+                <p class="formText">Name of item:</p>
+                <input type="text" name="iname">
+                <p class="formText">Description:</p>
+                <input type="text" name="idesc">
+                <p class="formText">Quantity:</p>
+                <input type="range" name="iquan" min="0" max="1000" step="1">
+                <p class="formText">Price:</p>
+                <input type="number" name="iprice">
+                <p class="formText">Category:</p>
+                <select name="icat">
+                    <option value="books">Books</option>
+                    <option value="movies">Movies</option>
+                    <option value="toys">Toys</option>
+                    <option value="homapp">Home Appliances</option>
+                    <option value="elec">Electronics</option>
+                </select>
+                <br>
+                <input id="submitButtom" type="submit" value="Submit item">
+            </form>
+        </div>
+    </body>
+
+</html>
+

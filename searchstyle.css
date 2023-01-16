@@ -1,0 +1,73 @@
+body {
+    background-image: url("Resources/backgroundsearch.jpg");
+    overflow-y: hidden;
+}
+
+/*search bar*/
+.searchbar input[type=text]{
+    width:675px;
+    height:40px;
+    border-radius:25px;
+    border: 1px solid;
+}
+     
+.searchbar{
+    text-align:center;
+    margin-top:350px;
+}
+
+/*filter*/
+
+.filter {
+    margin-left:550px;
+    margin-top:10px;
+}
+
+.btn {
+    background-color: #6b7973;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+
+
+.btn:hover {
+    background-color: #475c5d;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #475c5d;
+}
+
+.btn.active {
+    background-color:#1a2222;
+}
